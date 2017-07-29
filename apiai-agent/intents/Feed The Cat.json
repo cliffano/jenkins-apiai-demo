@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "fba9b1cd-507e-4c7a-84d5-f5c5878ad831",
+      "data": [
+        {
+          "text": "Give the cat some food"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "947bc151-6652-4086-ad2f-a3aa05c05169",
+      "data": [
+        {
+          "text": "Feed Godzilla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72e6ced5-ca82-47bc-9684-e4ed34b3c545",
+      "data": [
+        {
+          "text": "Time to feed the "
+        },
+        {
+          "text": "cat",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7be99b1-8f20-41d5-aa67-b643cd27feea",
+      "data": [
+        {
+          "text": "Feed the cat please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a0c85b85-21d5-4458-81dc-da2b9ee31914",
+  "name": "Feed The Cat",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@job",
+          "name": "job-name",
+          "value": "Feed The Cat"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

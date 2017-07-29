@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "ed08e623-4085-4215-9f91-57ad228521ab",
+      "data": [
+        {
+          "text": "Start the vacuum cleaner now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95e472dc-a561-42f0-ae6e-13d2ec01efac",
+      "data": [
+        {
+          "text": "Time to clean up the living room"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61ed601e-f773-46ed-b4a3-e30a326219fd",
+      "data": [
+        {
+          "text": "Vacuum the living room please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee7236ba-441b-4a75-8a63-9399b8f189a2",
+      "data": [
+        {
+          "text": "Vacuum living room"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1adb0d51-c9c8-43b5-8f23-b86ecc4a09c3",
+  "name": "Vacuum Living Room",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@job",
+          "name": "job-name",
+          "value": "Vacuum Living Room"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

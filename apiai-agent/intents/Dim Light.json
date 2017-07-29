@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "0dbaede3-4ecb-4f73-a4b1-a3e632583ef3",
+      "data": [
+        {
+          "text": "Make the room darker"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e73beb0-cb29-4a81-8e53-cdec36b0e509",
+      "data": [
+        {
+          "text": "Dim the light in the room"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b90599a4-b042-40b8-8721-dbc30c57292a",
+      "data": [
+        {
+          "text": "Dim light"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f48af01-37f0-48b5-8310-12d68d7fe8c3",
+      "data": [
+        {
+          "text": "Dim the light please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "aca7dfd0-54a2-4b23-b1e1-3795a6316b5d",
+  "name": "Dim Light",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@job",
+          "name": "job-name",
+          "value": "Dim Light"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

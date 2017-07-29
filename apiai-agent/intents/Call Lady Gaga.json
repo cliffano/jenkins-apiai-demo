@@ -1,0 +1,94 @@
+{
+  "userSays": [
+    {
+      "id": "021597e9-a753-4dab-84cd-de462e2ce606",
+      "data": [
+        {
+          "text": "Call "
+        },
+        {
+          "text": "Lady Gaga",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        },
+        {
+          "text": " for me please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3aa6bacb-0562-433a-b137-d1734fc57665",
+      "data": [
+        {
+          "text": "Please put "
+        },
+        {
+          "text": "Lady Gaga",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        },
+        {
+          "text": " on the phone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44008fc0-bf8f-454b-a800-5b8acd0d3f63",
+      "data": [
+        {
+          "text": "Call "
+        },
+        {
+          "text": "Lady Gaga",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d11dc309-6c13-47dd-8940-7533e837afd7",
+  "name": "Call Lady Gaga",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@job",
+          "name": "job-name",
+          "value": "Call Lady Gaga"
+        },
+        {
+          "dataType": "@sys.music-artist",
+          "name": "music-artist",
+          "value": "$music-artist",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,4 @@
+.DS_Store
+apiai-webhooks/.chalice/deployments
+apiai-webhooks/.chalice/deployed.json
+apiai-webhooks/*.pyc

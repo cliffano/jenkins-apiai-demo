@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "8f661218-168b-4dbb-a647-12b377a1ed49",
+      "data": [
+        {
+          "text": "Start the dishwasher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eaa5b0b4-b1b5-4d67-9b59-2d372a976973",
+      "data": [
+        {
+          "text": "Can you wash the dishes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7385121e-1310-4e7d-a6e1-4dd5d1f93741",
+      "data": [
+        {
+          "text": "Wash dishes for me please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbae89ea-d285-4296-abef-c17ffa565a37",
+      "data": [
+        {
+          "text": "Wash the dishes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bc6b455f-262d-4896-a36c-21653db9bad7",
+  "name": "Wash Dishes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@job",
+          "name": "job-name",
+          "value": "Wash Dishes"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

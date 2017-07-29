@@ -1,0 +1,31 @@
+{
+  "description": "api.ai agent for sending actions to Jenkins CI server",
+  "language": "en",
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "jenkins-apiai-agent",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "Australia/Sydney",
+  "webhook": {
+    "url": "https://abcdef.execute-api.us-west-2.amazonaws.com/dev/",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3
+}

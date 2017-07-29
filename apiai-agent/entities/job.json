@@ -1,0 +1,15 @@
+{
+  "id": "a8db2d63-215d-4acd-83e4-22633cd0f0fe",
+  "name": "job",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "job",
+      "synonyms": [
+        "job"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": false
+}
