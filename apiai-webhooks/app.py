@@ -8,9 +8,9 @@ app = Chalice(app_name='jenkins-apiai-webhooks')
 app.debug = True
 
 jenkins_ra = swaggyjenkins.RemoteAccessApi()
-jenkins_ra.api_client.configuration.host = os.environ['jenkins_host']
-jenkins_ra.api_client.configuration.username = os.environ['jenkins_username']
-jenkins_ra.api_client.configuration.password = os.environ['jenkins_password']
+jenkins_ra.api_client.configuration.host = os.environ.get('jenkins_host')
+jenkins_ra.api_client.configuration.username = os.environ.get('jenkins_username')
+jenkins_ra.api_client.configuration.password = os.environ.get('jenkins_password')
 
 print 'Using Jenkins instance at: {}, as user: {}'.format(jenkins_ra.api_client.configuration.host, jenkins_ra.api_client.configuration.username)
 
