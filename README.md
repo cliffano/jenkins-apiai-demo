@@ -21,8 +21,8 @@ Installation
 
 Requirements:
 
-* Install [Chalice](https://github.com/awslabs/chalice)
-* Install [Nestor](https://github.com/cliffano/nestor)
+* Install [Chalice](https://github.com/awslabs/chalice), used for managing api.ai webhooks
+* Install [Nestor](https://github.com/cliffano/nestor), used for creating Jenkins jobs
 
 Download Jenkins api.ai Demo code:
 
