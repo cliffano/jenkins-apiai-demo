@@ -1,5 +1,5 @@
 .DS_Store
-apiai-webhooks/.chalice/config.json
-apiai-webhooks/.chalice/deployments
-apiai-webhooks/.chalice/deployed.json
-apiai-webhooks/*.pyc
+lambda-webhooks/.chalice/config.json
+lambda-webhooks/.chalice/deployments
+lambda-webhooks/.chalice/deployed.json
+lambda-webhooks/*.pyc

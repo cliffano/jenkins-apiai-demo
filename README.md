@@ -10,18 +10,18 @@ Architecture
 
 [![Architecture Diagram](https://raw.github.com/cliffano/jenkins-apiai-demo/master/architecture.jpg)](https://raw.github.com/cliffano/jenkins-apiai-demo/master/architecture.jpg)
 
-| Component      | Description                                                                                |
-|----------------|--------------------------------------------------------------------------------------------|
-| apiai-agent    | Exported api.ai agent configuration                                                        |
-| apiai-webhooks | AWS API Gateway and Lambda serving as api.ai webhooks which proxies requests to Jenkins CI |
-| jenkins-data   | Jenkins jobs configuration files                                                           |
+| Component       | Description                                                                                |
+|-----------------|--------------------------------------------------------------------------------------------|
+| apiai-agent     | Exported api.ai agent configuration                                                        |
+| lambda-webhooks | AWS API Gateway and Lambda serving as api.ai webhooks which proxies requests to Jenkins CI |
+| jenkins-data    | Jenkins jobs configuration files                                                           |
 
 Installation
 ------------
 
 Requirements:
 
-* Install [Chalice](https://github.com/awslabs/chalice), used for managing api.ai webhooks
+* Install [Chalice](https://github.com/awslabs/chalice), used for managing Jenkins api.ai webhooks
 * Install [Nestor](https://github.com/cliffano/nestor), used for creating Jenkins jobs
 
 Download Jenkins api.ai Demo code:
@@ -31,7 +31,7 @@ Download Jenkins api.ai Demo code:
 Configuration
 -------------
 
-Configure `jenkins_host`, `jenkins_username`, and `jenkins_password` in `apiai-webhooks/.chalice/config.json` .
+Configure `jenkins_host`, `jenkins_username`, and `jenkins_password` in `lambda-webhooks/.chalice/config.json` .
 
 Configure `webhook/url` in `apiai-agent/agent.json` .
 
@@ -44,9 +44,9 @@ Create Jenkins jobs:
 
     make create-jenkins-jobs
 
-Deploy api.ai webhooks:
+Deploy Jenkins api.ai webhooks:
 
-    make deploy-apiai-webhooks
+    make deploy-lambda-webhooks
 
 Login to api.ai and import the content of `apiai-agent` .
 

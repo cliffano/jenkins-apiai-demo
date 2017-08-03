@@ -17,10 +17,10 @@ delete-jenkins-jobs:
 	nestor delete-job "Vacuum Living Room"
 	nestor delete-job "Call Lady Gaga"
 
-deploy-apiai-webhooks:
-	cd apiai-webhooks && jenkins_host= jenkins_username= jenkins_password= chalice deploy
+deploy-lambda-webhooks:
+	cd lambda-webhooks && jenkins_host= jenkins_username= jenkins_password= chalice deploy
 
-delete-apiai-webhooks:
-	cd apiai-webhooks && chalice delete
+delete-lambda-webhooks:
+	cd lambda-webhooks && chalice delete
 
-.PHONY: deps create-jenkins-jobs delete-jenkins-jobs create-apiai-webhooks delete-apiai-webhooks
+.PHONY: deps create-jenkins-jobs delete-jenkins-jobs deploy-lambda-webhooks delete-lambda-webhooks
