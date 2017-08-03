@@ -18,7 +18,7 @@ delete-jenkins-jobs:
 	nestor delete-job "Call Lady Gaga"
 
 deploy-lambda-webhooks:
-	cd lambda-webhooks && jenkins_host= jenkins_username= jenkins_password= chalice deploy
+	cd lambda-webhooks && chalice deploy
 
 delete-lambda-webhooks:
 	cd lambda-webhooks && chalice delete
