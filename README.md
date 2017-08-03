@@ -57,3 +57,7 @@ Colophon
 Presentations:
 
 * TODO
+
+Related Projects:
+
+* [swaggy-jenkins](http://github.com/cliffano/swaggy-jenkins) - A set of Jenkins API clients in multiple languages generated from Swagger / Open API specification
