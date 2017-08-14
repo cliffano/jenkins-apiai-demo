@@ -3,7 +3,7 @@
 Jenkins api.ai Demo
 -------------------
 
-Demo project for [Jenkins CI](http://jenkins-ci.org) and [api.ai](http://api.ai) integration using AWS API Gateway and Lambda as the webhooks.
+Demo project for [Jenkins CI](http://jenkins-ci.org) and [api.ai](http://api.ai) integration using AWS API Gateway and Lambda as the webhooks and [swaggyjenkins](https://pypi.python.org/pypi/swaggyjenkins) Python library..
 
 Architecture
 ------------
