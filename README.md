@@ -46,7 +46,7 @@ Create Jenkins jobs:
 
 Deploy Jenkins api.ai webhooks:
 
-    make deploy-lambda-webhooks
+    make deps deploy-lambda-webhooks
 
 Login to api.ai and import the content of `apiai-agent` .
 
