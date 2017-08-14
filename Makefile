@@ -1,5 +1,5 @@
 deps:
-	pip install -r requirements.txt
+	pip install -r lambda-webhooks/requirements.txt
 
 create-jenkins-jobs:
 	nestor create-job "Brew Coffee" jenkins-data/job_config_success_1.xml
