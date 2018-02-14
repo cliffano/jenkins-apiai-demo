@@ -56,7 +56,7 @@ Colophon
 
 Presentations:
 
-* TODO
+* [Bringing Jenkins Remote Access API To The Masses](https://www.slideshare.net/cliffano/bringing-jenkins-remote-access-api-to-the-masses)
 
 Related Projects:
 
